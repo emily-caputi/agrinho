@@ -1,4 +1,11 @@
 @import url(Styles/header.css);
+@import url(Styles/carrossel.css);
+@import url(Styles/agricultura-de-precisão.css);
+@import url(Styles/carrossel-2.css);
+@import url(Styles/sustentabilidade-na-agricultura.css);
+@import url(Styles/sustentabilidade-no-dia-a-dia.css);
+@import url(Styles/rodapé.css);
+
 
 
 :root{
@@ -8,10 +15,12 @@
     --marrom: #4F1C00;
     --amarelo: #F7FF00;
     --preto: #000000;
-    --verde: #00CD18;
+    --verde: #048004;
+    --azul: #00028F;
+    --azul-claro: #0e3edd;
     --cor-de-fundo: linear-gradient( #00CD18, #096B00, #00028F);
 }
 
 body{
-    background-color: var(--verde);
+    background-image: var(--cor-de-fundo) ;
 }

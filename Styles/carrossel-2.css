@@ -1,0 +1,18 @@
+.carrossel-2__titulo{
+    background-color: var(--marrom);
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: 20px ;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5em;
+}
+
+.carrossel{
+    background-image: url("../img/fundocarrossel.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+}
